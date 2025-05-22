@@ -1,4 +1,4 @@
-# ft_irc
+ft_irc
 
 Connecting with netcat:
 nc -C <target ip> <port number>
