@@ -26,6 +26,8 @@ TOPIC #<channel> <new topic(optional)>
 PART #<channel>
 MODE #<channel> <flags> <parameters>
 
+
+
 Connecting with irssi:
 /connect <target ip> <port number> <password> <username(optional)>
 -Irssi automatically starts a capability communication with the server (CAP->PASS->NICK->USER->CAP) and finds the user info from the computer user info.
