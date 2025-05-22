@@ -1,5 +1,10 @@
 #ft_irc
 ```
+Starting the server:
+./ircserv <portnumber> <password>
+
+
+
 Connecting with netcat:
 nc -C <target ip> <port number>
 -The -C flag is used to add /r/n at the end of each input. We chose this behaviour due to the behaviour of irssi,
