@@ -6,7 +6,7 @@ Starting the server:
 
 
 Connecting with netcat:
-nc -C <target ip> <port number>
+nc -C <target ip> <portnumber>
 -The -C flag is used to add /r/n at the end of each input. We chose this behaviour due to the behaviour of irssi,
  which was our main client.
 -In netcat, the syntax is very strict and all channels in commands should be defined with a "#" at the beginning,
@@ -37,7 +37,7 @@ MODE #<channel> <flags> <parameters>
 
 
 Connecting with irssi:
-/connect <target ip> <port number> <password> <username(optional)>
+/connect <target ip> <portnumber> <password> <username(optional)>
 -Irssi automatically starts a capability communication with the server (CAP->PASS->NICK->USER->CAP) and finds
  the user info from the computer user info.
 -The syntax differs from netcat and is more relaxed, but irssi does send the message to the server in the same
