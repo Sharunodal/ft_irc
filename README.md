@@ -21,12 +21,12 @@ WHOIS <nickname>
 PING <origin>
 
 Additional commands available after registration:
-PRIVMSG #<channel>/<user>
+PRIVMSG #<channel>/<user> :<message>
 JOIN #<channel>
-KICK #<channel> <user>
-INVITE #<channel> <user>
-TOPIC #<channel> <new topic(optional)>
-PART #<channel>
+KICK #<channel> <user> :<message(optional)>
+INVITE #<channel> <user> :<message>(optional)
+TOPIC #<channel> :<new topic(optional)>
+PART #<channel> :<message(optional)>
 MODE #<channel> <flags> <parameters>
 
 
@@ -41,7 +41,7 @@ Connecting with irssi:
 Available commands:
 /nick <new nickname>
 /quit
-/msg <channel>/<user>
+/msg <channel>/<user> <message>
 /kick <channel(optional)> <user>
 /invite <channel(optional)> <user>
 /part <channel(optional)>
