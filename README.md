@@ -1,5 +1,5 @@
-ft_irc
-
+#ft_irc
+<pre> ```
 Connecting with netcat:
 nc -C <target ip> <port number>
 -The -C flag is used to add /r/n at the end of each input. We chose this behaviour due to the behaviour of irssi, which was our main client.
@@ -24,3 +24,4 @@ MODE #<channel> <flags> <parameters>
 Connecting with irssi:
 /connect <target ip> <port number> <password> <username(optional)>
 Irssi automatically starts a capability communication 
+``` </pre>
