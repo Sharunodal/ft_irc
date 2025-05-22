@@ -54,7 +54,7 @@ Available commands:
 /whois <nickname>
 -Automatically sent if the user info is identical to an existing user in order to figure out an alternative
  nickname to use.
-/who
+/who <channel>
 -Automatically sent if a user joins a channel in order to find the current users and their statuses
  on the channel.
 /mode b
